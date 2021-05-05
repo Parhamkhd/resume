@@ -224,20 +224,20 @@ function Main(){
                                                         <span className="contact-persons-list-content-item action d-flex">
                                                             <img
                                                                 className="small-icon edit"
-                                                                src="/assets/images/edit-icon.svg"
+                                                                src="assets/images/edit-icon.svg"
                                                                 onClick={(e) => editContact(id)}
-                                                                onMouseEnter={(e) => (e.target.src = "/assets/images/edit-icon-hovered.svg")}
+                                                                onMouseEnter={(e) => (e.target.src = "assets/images/edit-icon-hovered.svg")}
                                                                 onMouseLeave={(e) => {
-                                                                (e.target.src = "/assets/images/edit-icon.svg")
+                                                                (e.target.src = "assets/images/edit-icon.svg")
                                                             }}
                                                                 alt=""/>
                                                             <img
                                                                 className="small-icon"
                                                                 src="/assets/images/trash.svg"
                                                                 onClick={(e) => deletePerson(id)}
-                                                                onMouseEnter={(e) => (e.target.src = "/assets/images/trash-hover.svg")}
+                                                                onMouseEnter={(e) => (e.target.src = "assets/images/trash-hover.svg")}
                                                                 onMouseLeave={(e) => {
-                                                                (e.target.src = "/assets/images/trash.svg")
+                                                                (e.target.src = "assets/images/trash.svg")
                                                             }}
                                                                 alt=""/>
 
