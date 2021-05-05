@@ -233,7 +233,7 @@ function Main(){
                                                                 alt=""/>
                                                             <img
                                                                 className="small-icon"
-                                                                src="/assets/images/trash.svg"
+                                                                src="assets/images/trash.svg"
                                                                 onClick={(e) => deletePerson(id)}
                                                                 onMouseEnter={(e) => (e.target.src = "assets/images/trash-hover.svg")}
                                                                 onMouseLeave={(e) => {
